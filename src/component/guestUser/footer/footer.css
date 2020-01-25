@@ -1,0 +1,97 @@
+body{
+    color: white;
+}
+.myFooter{
+    padding-top: 50px;
+    background-color: #242A35;
+}
+.myFooter p {
+    line-height: 1.3;
+    text-align:  justify;
+    font-size: 13px;
+}
+
+/* 
+.MuiButtonGroup-root .MuiButtonGroup-contained{
+    width:100%;
+}
+.MuiButtonGroup-contained {
+    width: 100% !important;
+}
+.w60{
+    min-width: 60px !important;
+}
+.MuiButtonGroup-groupedContainedPrimary:nth-child(2) {
+    min-width: 112px !important;
+}
+.MuiButton-containedPrimary {
+    color: black !important;
+    background-color: #fff !important;
+} */
+.doller p{
+    font-size: 30px;
+    line-height: 0;
+    margin-top: 10px;
+}
+.cont{
+    background-color: #3F51B5;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 33px;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+.footer_menu{}
+.footer_menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer_menu ul li{
+    display: inline;
+}
+.footer_menu ul li a {
+    
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 2px 9px;
+    border-right: 2px solid white;
+    text-emphasis: none;
+    font-size: 14px;
+    transition: .5s;
+}
+.footer_menu ul li a :hover{
+    color: #3F51B5;
+}
+
+.bnone a {
+    border-right: 0;
+}
+.play img{
+    max-width: 70%;
+    position: relative;
+    left: -9px;
+} 
+.card img{
+    max-width: 100%;
+}
+
+.icon {}
+.icon ul {}
+.icon li {
+    display: inline;
+}
+.icon ul li a {
+    display: inline;
+}
+
+.icon  ul li a {
+    padding: 10px;
+    color: white;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+.fs_11{
+    font-size: 11px;
+}

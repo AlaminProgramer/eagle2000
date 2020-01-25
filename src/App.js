@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Navbar from './component/guestUser/navBar/Navbar'
+import GuestHome from './component/guestUser/GuestHome'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Navbar/>
+        <GuestHome/>
         
       </div>
     )
