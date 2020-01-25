@@ -1,0 +1,74 @@
+.help  *{
+    color: #424B59;
+}
+.banner{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.banner .overlay{
+    position: absolute;
+    background-color: #3660F4;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    z-index: 1;
+}
+.overlayText{
+    color: white;
+    position: absolute;
+    max-width: 50%;
+    max-height: 100%;
+    display: inline;
+    text-align: center;
+    z-index: 999;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+.header{
+    display: flex;
+    margin-top: 100px;
+}
+.header h2:first-child{
+    width: 50px;
+    height: 50px;
+    background-color: #A1A9B3;
+    border-radius: 100%;
+    position: relative;
+    
+}
+.header h2:last-child{
+    line-height: 1.7;
+}
+
+.header h2 span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.text{
+    max-width: 50%;
+    float: left;
+}
+.helptBtn{
+    color: white;
+    padding: 10px 30px;
+    background-color: #0291F0;
+    border-radius: 18px;
+
+}
+.helpImg img{
+    max-width: 70%;
+    float: right;
+    padding-top: 50px;
+    height: 380px;
+    padding-bottom: 50px;
+}
+.sh{
+    background-color: #F0F2F6
+}
+ .sh .helpImg img{
+    float: left;
+}
